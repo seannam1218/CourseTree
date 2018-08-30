@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+    <table border = 1>
+        <!--create table headers-->
+        <tr>
+            <th><b>Student #</b></th>
+            <th><b>First Name</b></th>
+            <th><b>Last Name</b></th>
+        </tr>
+
+        <!--populate table-->
+        {% for s in studentTable %}
+            <tr>
+                <td> {{s[0]}} </td>
+                <td> {{s[1]}} </td>
+                <td> {{s[2]}} </td>
+            </tr>
+        {% endfor %}
+
+</body>
+</html>
