@@ -6,6 +6,14 @@
 </head>
 <body>
     <h1>Welcome {{userName}}</h1>
-    <button method="GET" action="http://127.0.0.1:5000/coursesTaken">View My Courses</button>
+
+    <a href="http://127.0.0.1:5000/coursesTaken">My Courses</a>
+    <br><br>
+    <a href="http://127.0.0.1:5000/allCourses">View All Courses and Prerequisites</a>
+    <br><br><br><br>
+    <p>Select courses you wish to take and click on "Generate Tree"</p>
+    <form method="POST">
+        <input type="submit" value="Generate Tree">
+    </form>
 </body>
 </html>

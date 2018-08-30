@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>allCourses</title>
+</head>
+<body>
+    <table border = 1>
+        <!--create table headers-->
+        <tr>
+            <th><b>Course #</b></th>
+            <th><b>Course Title</b></th>
+            <th><b>Prerequisite</b></th>
+        </tr>
+        <!--populate table-->
+        {% for c in courseTable %}
+            <tr>
+                <td> {{c[0]}} </td>
+                <td> {{c[1]}} </td>
+                <td> {{c[3]}} </td>
+
+            </tr>
+        {% endfor %}
+    </table>
+    <br><br>
+    <a href="http://127.0.0.1:5000/welcome">Back</a>
+</body>
+</html>
