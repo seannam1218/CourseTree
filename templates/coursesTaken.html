@@ -11,16 +11,19 @@
             <th><b>Student #</b></th>
             <th><b>First Name</b></th>
             <th><b>Last Name</b></th>
+            <th><b>Course Taken</b></th>
+            <th><b>% Grade</b></th>
         </tr>
-
         <!--populate table-->
         {% for s in studentTable %}
             <tr>
                 <td> {{s[0]}} </td>
                 <td> {{s[1]}} </td>
                 <td> {{s[2]}} </td>
+                <td> {{s[4]}} </td>
+                <td> {{s[5]}} </td>
             </tr>
         {% endfor %}
-
+    </table>
 </body>
 </html>

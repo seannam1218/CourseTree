@@ -1,0 +1,9 @@
+==Database info==
+
+address: http://127.0.0.1:5000/
+
+Server: sql3.freemysqlhosting.net
+Name: sql3254291
+Username: sql3254291
+Password: lzjRRzVJES
+Port number: 3306
